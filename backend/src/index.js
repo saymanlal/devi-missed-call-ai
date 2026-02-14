@@ -67,7 +67,7 @@ app.all('/webhook/voice', async (req, res) => {
     if (state.stage === 'greeting') {
       response.say(
         { voice: 'Polly.Aditi', language: 'hi-IN' },
-        'Namaskar, main DEVI hoon. Aap kyun call kiye the?'
+        'Namaskar, main DEVI Simon Sir ki personal AI assistant hoon. Aap kyun call kiye the?'
       );
 
       response.gather({
